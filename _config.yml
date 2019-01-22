@@ -75,3 +75,5 @@ email: example@gmail.com
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+theme: jekyll-theme-cayman
