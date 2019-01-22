@@ -1,0 +1,77 @@
+
+baseurl: "/lychees" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: "image/favicon.ico"
+title: Lychees Beauty Clinic
+
+
+# Navigationbar settings
+logoName: Lychees
+nav1: Home
+nav2: Bookings
+nav3: About
+########################
+
+
+# Brand Settings
+brandName: Lychees
+brandDescription: Herbal Beauty Clinic <br> Ladies & Kids
+################
+
+
+#Slides
+bookingPhone: 9876543210
+bookingButton: Book Now
+
+slide-1-Image: "/lychees/images/slide1.png"
+slide-1-Name: Eyebrows
+slide-1-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+slide-2-Image: "/lychees/images/slide2.jpg"
+slide-2-Name: Hair Cut
+slide-2-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+slide-3-Image: "/lychees/images/slide3.jpg"
+slide-3-Name: Hair Smoothening
+slide-3-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+slide-4-Image: "/lychees/images/slide4.jpg"
+slide-4-Name: Hair Straightening
+slide-4-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+slide-5-Image: "/lychees/images/slide5.jpg"
+slide-5-Name: Facial
+slide-5-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+slide-6-Image: "/lychees/images/slide6.jpg"
+slide-6-Name: Bridal Makeup
+slide-6-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+slide-7-Image: "/lychees/images/slide7.jpg"
+slide-7-Name: Kids Hair Cut
+slide-7-Description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo tristique eu. Fusce eu molestie orci. Mauris id commodo nisl. Vivamus eget malesuada tortor, vitae efficitur nisl."
+
+#######
+
+
+#About Us
+aboutHead: About Us
+aboutText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor libero nulla, quis sagittis justo."
+
+facebook: https://www.facebook.com/lycheesbeauty
+instagram: https://www.instagram.com/lycheesbeauty
+
+location: Kazhakoottam, Tvm
+landmark: Near AJ Hospital
+pin: 695581
+
+phone: 9876543210
+email: example@gmail.com
+
+#########
+
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed

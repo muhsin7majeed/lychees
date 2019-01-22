@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Roboto|Ribeye');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+body {}
+
+/* -----------Nav Bar------------- */
+.navbar {
+	background-color: #ff6969 !important;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-family: 'Allura', cursive;
+	color: white !important;
+	font-size: 28px;
+}
+
+.wrapper a {
+	color: white !important;
+}
+
+.navspan {
+	width: 21px;
+	height: 2px;
+	background: white;
+	margin-bottom: 5px;
+	display: block;
+	margin: 3px;
+}
+
+/* -------------Home------------ */
+.wrapper {
+	background: url("/images/home.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.lychee {
+	font-family: 'Ribeye', cursive;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 82px;
+	letter-spacing: 0.07em;
+	color: white;
+}
+
+.lycheetext {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 28px;
+	color: white;
+}
+
+.head {
+	margin-top: 30vh;
+}
+
+.arrow i {
+	color: white;
+	margin-left: 50%;
+	transform: translate(-50%);
+	font-size: 48px;
+	margin-top: 20vh;
+	opacity: .5;
+}
+
+/* ----------Booking------------ */
+.booking {
+	position: relative;
+}
+
+
+
+.booking a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.booking a {
+	transition: .5s ease;
+}
+
+.booking img {
+	width: 100vw;
+	height: 100vh;
+	filter: brightness(50%);
+	object-fit: cover;
+}
+
+.carousel-caption {
+	text-align: left !important;
+	position: absolute;
+	top: 30vh;
+	text-shadow: 0 0 10px rgb(41, 41, 41);
+}
+
+.booknow {
+	padding: 15px 20px 15px 10px;
+	border-radius: 50px;
+	border: none;
+	background-color: #ff4b4b;
+	color: white;
+	font-size: 20px;
+}
+
+.slidehead {
+	font-family: 'Ribeye', cursive;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 64px;
+	letter-spacing: 0.1em;
+}
+
+.slidetext {
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 28px;
+	max-width: 700px;
+}
+
+.booknow i {
+	font-size: 15px;
+	background-color: rgb(252, 40, 40);
+	border-radius: 50px;
+	padding: 10px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	opacity: .5;
+	margin: 0 5px;
+	border-radius: 100%;
+}
+
+/* -------------About Us--------- */
+.aboutus {
+	background: url("/images/about.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+	text-shadow: 0 0 10px rgb(41, 41, 41);
+	padding-top: 20vh;
+	position: relative;
+}
+
+.aboutushead {
+	font-family: 'Ribeye', cursive;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 52px;
+	letter-spacing: 0.1em;
+}
+
+.aboutustext {
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 24px;
+	max-width: 50%;
+}
+
+.aboutus i {
+	font-size: 28px;
+	text-shadow: none;
+	padding: 0 10px;
+}
+
+.footer {
+	width: 100%;
+	bottom: 0;
+	background-color: #ff4b4b;
+	color: white;
+}
+
+.footer .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 15vh;
+	padding: 30px;
+}
+
+.footerhead {
+	font-weight: 500;
+	line-height: normal;
+	font-size: 18px;
+	letter-spacing: 0.07em;
+	opacity: .9;
+}
+
+.footertext {
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: 0.07em;
+}
+
+.map {}
+
+.map iframe {
+	width: 100%;
+	height: 50vh;
+}
+
+.copy p {
+	font-size: 16px;
+	padding: 15px;
+	margin: 0;
+	background-color: #2e2e2e;
+	width: 100%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.219);
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+	.carousel-caption {
+		top: 25vh;
+	}
+
+	.slidehead {
+		font-size: 50px;
+	}
+
+	.slidetext {
+		font-size: 24px;
+		padding-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+
+	.footer {
+		height: auto;
+	}
+
+	.slidehead {
+		font-size: 42px;
+	}
+
+	.slidetext {
+		font-size: 18px;
+	}
+
+	.lychee {
+		font-size: 52px;
+	}
+
+	.aboutus {
+		background-position: left;
+	}
+
+	.aboutushead {
+		font-size: 42px;
+	}
+
+	.aboutustext {
+		font-size: 24px;
+		text-align: justify;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-height: 600px) {
+	.wrapper {
+		height: auto;
+	}
+}
+@media only screen and (max-width: 1050px){
+	.slidehead{
+		font-size: 40px;
+		letter-spacing: 0;
+	}
+
+	.carousel-caption {
+		top: 15vh;
+	}
+	.booking img {
+	}
+
+}
