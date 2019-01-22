@@ -40,7 +40,7 @@ body {}
 
 /* -------------Home------------ */
 .wrapper {
-	background: url("/images/home.jpg");
+	background: url("/lychees/images/home.jpg");
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
@@ -153,7 +153,7 @@ body {}
 
 /* -------------About Us--------- */
 .aboutus {
-	background: url("/images/about.jpg");
+	background: url("/lychees/images/about.jpg");
 	background-position: center;
 	background-size: cover;
 	color: white;
